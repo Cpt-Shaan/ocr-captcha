@@ -4,4 +4,4 @@ Note : All work in this repo has been done keeping the accesibility for the blin
 
  - Initial Version - Accpets captcha image, converts to text via CRNN, and converts to speech via kokoro. 
  - In development - StreamlitUI / Gradio based application for hosting and inferencing. 
- - Further Versions (todo) - To work for multiple types of captchas (aritmetic solvers, finding particular letters from captcha) ,host as a chrome extension ,etc.  
+ - Further Versions (todo) - To work for multiple types of captchas (arithmetic solvers, finding particular letters from captcha) ,host as a chrome extension ,etc.  
