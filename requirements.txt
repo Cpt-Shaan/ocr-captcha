@@ -6,3 +6,4 @@ pillow
 soundfile
 kokoro>=0.9.2
 streamlit
+gdown
