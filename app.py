@@ -8,6 +8,7 @@ import io
 # from IPython.display import Audio
 from kokoro import KPipeline
 import gdown
+import os 
 
 MODEL_PATH = "ocr_captv1.pth"
 DRIVE_FILE_ID = "1ivVAxuZw3J1Spcc806JgzXNJm44nhvQQ"  # ← replace with your actual file ID
