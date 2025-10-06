@@ -10,6 +10,9 @@ from kokoro import KPipeline
 import gdown
 import os 
 
+os.environ["KOKORO_DISABLE_SPACY_DOWNLOAD"] = "1"
+os.environ["KOKORO_LANG_MODE"] = "minimal"
+
 MODEL_PATH = "ocr_captv1.pth"
 DRIVE_FILE_ID = "1ivVAxuZw3J1Spcc806JgzXNJm44nhvQQ"  # ← replace with your actual file ID
 
